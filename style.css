@@ -35,13 +35,16 @@ body {
 
 /* Create two equal columns that floats next to each other */
 .column {
-  float: left;
   width: 50%;
   padding: 10px;
+   margin-left: auto;
+  margin-right: auto;
 }
 
 .column img {
   margin-top: 12px;
+   margin-left: auto;
+  margin-right: auto;
 }
 
 /* Clear floats after the columns */
@@ -71,6 +74,8 @@ img {
   border-width: 8px;
   width: 240px;
   height: 210px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -141,6 +146,7 @@ img {
   opacity: 1;
   right: 0;
 }
+
 
 
 /* Navigation */
@@ -255,6 +261,8 @@ bottom Navbar */
   .imgSmaller{
     width: 70%;
     height: auto;
+     margin-left: auto;
+  margin-right: auto;
   }
 
   body {
@@ -368,6 +376,8 @@ bottom Navbar */
   border-width: 10px;
   border-color: #AD2E24;
   background-color:rgb(232, 200, 157);
+   margin-left: auto;
+  margin-right: auto;
 }
 
 .imgBorder:hover {opacity: 0.7; cursor: pointer}
